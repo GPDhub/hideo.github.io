@@ -2,9 +2,24 @@
     color: rgb(191, 208, 224);
     height: 80px;
     text-align: center;
+    line-height: 80px;
     background-color: rgb(80, 76, 219);
   }
 
-li {
+main {
+  background-color: antiquewhite;
+  height: 400px;
+}  
+
+.heading {
+  width: 300px;
+}
+
+.headingtitle {
   list-style: none;
+  border: 2px solid whitesmoke;
+  padding: 15px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 5px;
 }
