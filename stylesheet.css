@@ -1,3 +1,12 @@
+h5 {
+  padding: 20px 40px;
+  border-bottom: 1px solid  rgb(162, 155, 224);
+}
+
+p {
+  padding: 10px 50px;
+}
+
 .title {
     color: rgb(191, 208, 224);
     height: 80px;
@@ -8,12 +17,14 @@
 
 main {
   background-color: antiquewhite;
-  height: 400px;
+  padding-bottom: 10px;
 }  
 
-.heading {
-  width: 300px;
+.wrpper {
+  padding: 0 40px;
 }
+
+
 
 .headingtitle {
   list-style: none;
@@ -22,4 +33,5 @@ main {
   margin: 15px;
   background-color: white;
   border-radius: 5px;
+  width: 300px;
 }
