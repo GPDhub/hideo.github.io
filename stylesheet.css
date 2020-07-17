@@ -25,13 +25,27 @@ h6 {
   height: 5px;
 }
 
-.TabSpace {
-  margin-left: 20px;
+h5 {
+  font-size: 25px;
 }
+
+
+p {
+  font-size: 20px;
+}
+
+.TabSpace {
+  margin-left: 20px;å
+}
+
+.WTabSpace {
+  margin-left: 40px;
+}
+
 
 .word {
   padding: 5px 20px;
-  width: 200px;
+  width: 400px;
   clear: both;
 }
 
@@ -63,22 +77,3 @@ main {
   padding: 10px 40px;
 }
 
-
-main {
-  background-color: antiquewhite;
-  padding-bottom: 10px;
-}  
-
-.wrpper {
-  padding: 10px 40px;
-}
-
-.firsttitle {
-  list-style: none;
-  border: 2px solid whitesmoke;
-  padding: 0 15px;
-  margin: 15px;
-  background-color: white;
-  border-radius: 5px;
-  width: 300px;
-}
