@@ -29,9 +29,10 @@
             </div>
             <div class="sub_container">
               <p class="expanation">説明</p>
-              <p class="exp_text">console.logは、</p>
+              <p class="exp_text">「console.log("○○");」というコードを書くと、<br>
+                ()の中の○○という文字がコンソールに出力されます。</p>
               <p class="howtouse clear">使い方</p>
-              <p class="htu_text">console.log("Hello World")</p>
+              <p class="htu_text">console.log("Hello World");</p>
             </div>
           </div>
 
@@ -41,7 +42,9 @@
             </div>
             <div class="sub_container">
               <p class="expanation">説明</p>
-              <p class="exp_text">letは、</p>
+              <p class="exp_text">letは、変数の宣言を差します。<br>
+                変数名(name)にイコール後の値を入れ込みます。<br>
+                左辺に右辺を代入しています。</p>
               <p class="howtouse clear">使い方</p>
               <p class="htu_text">let name = "John";</p>
             </div>
@@ -53,7 +56,7 @@
             </div>
             <div class="sub_container">
               <p class="expanation">説明</p>
-              <p class="exp_text">constは、</p>
+              <p class="exp_text">constは、変数の宣言を差します。</p>
               <p class="howtouse clear">使い方</p>
               <p class="htu_text">const name = "John";</p>
             </div>
@@ -87,11 +90,11 @@
 
           <div class="expcontainer">
             <div class="word">
-              <h5>四則演算</h5>
+              <h5>比較演算子</h5>
             </div>
             <div class="sub_container">
               <p class="expanation">説明</p>
-              <p class="exp_text">a === b ... aとbが等しい
+              <p class="exp_text">a === b ... aとbが等しい(trueを取得)
                 <br>a !== b ...aとbが異なる
               </p>
               <p class="howtouse clear">使い方</p>
@@ -105,7 +108,7 @@
             </div>
             <div class="sub_container">
               <p class="expanation">説明</p>
-              <p class="exp_text">swithは、ある値によって処理を分岐する場合に用いることができます。
+              <p class="exp_text">swichは、ある値によって処理を分岐する場合に用いることができます。
               </p>
               <p class="howtouse clear">使い方</p>
               <p class="htu_text">const color = "赤";<br>
@@ -115,12 +118,90 @@
                   <span class="WTabSpace">break;</span><br>
                   <span class="TabSpace">default :</span><br>
                   <span class="WTabSpace">console.log("メダルはありません");</span><br>
+                  <span class="WTabSpace">break;</span><br>
                 }</p>
             </div>
           </div>
 
-
+          <div class="expcontainer">
+            <div class="word">
+              <h5>while</h5>
+            </div>
+            <div class="sub_container">
+              <p class="expanation">説明</p>
+              <p class="exp_text">while文は、繰り返し処理を行うときに用います。<br>
+                while以後の()内の条件式がtrueの間、{ }内の処理を繰り返すことができます。
+              </p>
+              <p class="howtouse clear">使い方</p>
+              <p class="htu_text">let number = 1;<br>
+                while (number <= 100) {<br>
+                  <span class="TabSpace">console.log(number);</span><br>
+                  <span class="TabSpace">number += 1;</span><br>
+              }</p>
+            </div>
+          </div>
        
+          <div class="expcontainer">
+            <div class="word">
+              <h5>for</h5>
+            </div>
+            <div class="sub_container">
+              <p class="expanation">説明</p>
+              <p class="exp_text">繰り返し処理を行う方法としてforを用います</p>
+              <p class="howtouse clear">使い方</p>
+              <p class="htu_text">for (let number = 1; number <= 100; number++) {<br>
+                  <span class="TabSpace">console.log(number);</span><br>
+              }</p>
+            </div>
+          </div>
+
+          <div class="expcontainer">
+            <div class="word">
+              <h5>オブジェクト</h5>
+            </div>
+            <div class="sub_container">
+              <p class="expanation">説明</p>
+              <p class="exp_text">プロパティと値がセットになってるデータを複数まとめて管理するのに用いられます。<br>
+                { プロパティ:値1, プロパティ:値2 }のように定義<br>
+                プロパティと値セットで一つの要素とします。</p>
+              <p class="howtouse clear">使い方</p>
+              <p class="htu_text">for (let number = 1; number <= 100; number++) {<br>
+                  <span class="TabSpace">console.log(number);</span><br>
+              }</p>
+            </div>
+          </div>
+
+          <div class="expcontainer">
+            <div class="word">
+              <h5>重複オブジェクト</h5>
+            </div>
+            <div class="sub_container">
+              <p class="expanation">説明</p>
+              <p class="exp_text">プロパティの中にオブジェクトが挿入されている。<br>
+                <span class="TabSpace">プロパティ:値,</span><br>
+                <span class="TabSpace">プロパティ:値,</span><br>
+                <span class="TabSpace">プロパティ: {</span><br>
+                  <span class="WTabSpace">プロパティ:値,</span><br>
+                  <span class="WTabSpace">プロパティ:値,</span><br>
+                <span class="TabSpace">},</span><br>
+                のように定義。｛}内がオブジェクト。</p>
+              <p class="howtouse clear">使い方</p>
+              <p class="htu_text">const character = {<br>
+                <span class="TabSpace">name:"たけし",</span><br>
+                <span class="TabSpace">age:14,</span><br>
+                <span class="TabSpace">favorite: {</span><br>
+                  <span class="WTabSpace">food:"ラーメン",</span><br>
+                  <span class="WTabSpace">sports:"サッカー",</span><br>
+                <span class="TabSpace">},</span><br>
+              };<br>
+              console.log(character.favorite.sports);<br>
+              </p>
+
+
+            </div>
+          </div>
+
+
 
 
             <div class="second_title">
