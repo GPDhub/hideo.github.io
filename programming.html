@@ -7,7 +7,7 @@
   </head>
   <body>
   <header>
-    <h1 class="title">ガッピデのmemo</h1>
+    <h1 class="title">.C& のmemo</h1>
 
   </header>
   <main>
@@ -15,11 +15,13 @@
     <div class="container">
     
       <div class="fcontainer">
-      <div class="first_title"><h2>プログラミング学習の記録</h2></div>
+        <div class="first_title1"><h2>プログラミング学習の記録</h2></div>
+      </div>
+      <div class="fcontainer">
+        <a class="first_title btn1" href="index.html">topに戻る</a>
+      </div>
       <div class="second_title">
         <h3>javasceptの勉強</h3>
-
-
 
 
         <!-- console.log -->
@@ -283,14 +285,13 @@
           </tr>
           <tr>
             <th class="mTheme">使い方</th>
-            <td class="mtd">for (let number = 1; number <= 100; number++) {<br>
-            <span class="TabSpace">introduce();</span><br>
-            }
+            <td class="mtd">const user = {name:"ガッピデ", age: 41};<br>
+            console.log(user.age);<br>
             </td>
           </tr>
           <tr>
             <th class="lastTheme">コンソール</th>
-            <td class="ltd">-</td>
+            <td class="ltd">41</td>
           </tr>
           </table>
         </div>
@@ -449,7 +450,7 @@
           <table>
           <tr>
             <th class="upTheme">説明</th>
-            <td class="uptd">呼び出し元で値を受け取れるようになります。</td>
+            <td class="uptd">呼び出し元で値を受け取れるようになります。returnの後にある関数内の処理は実行されません。</td>
           </tr>
           <tr>
             <th class="mTheme">使い方</th>
@@ -512,9 +513,115 @@
           </table>
         </div>
 
+        <!-- クラス(設計図) 途中-->
+        <div class="expcontainer">
+          <div class="word">
+          <h4>クラス（設計図）途中</h4>
+          </div>
+          <table>
+          <tr>
+            <th class="upTheme">説明</th>
+            <td class="uptd">効率よくオブジェクトを作成していくため用意。クラス名は原則頭文字は大文字</td>
+          </tr>
+          <tr>
+            <th class="mTheme">使い方</th>
+            <td class="mtd">const number1 = 123;<br>
+              const number2 = 38;<br>
+              const number3 = 104;<br>
+              const getMax = (a, b, c) => {<br>
+                <span class="TabSpace">let max = a;</span><br>
+                <span class="TabSpace">if(b > max) {</span><br>
+                  <span class="WTabSpace">max = b;</span><br>
+                <span class="TabSpace">{</span><br>
+                <span class="TabSpace">if(c > max) {</span><br>
+                  <span class="WTabSpace">max = c;</span><br>
+                <span class="TabSpace">{</span><br>
+                <span class="TabSpace">return max;</span><br>
+              };<br>
+              const max = getMax(number1, number2, number3);<br>
+              console.log(`最大値は${max}です`);<br>
+            </td>
+          </tr>
+          <tr>
+            <th class="lastTheme">コンソール</th>
+            <td class="ltd">最大値は123です
+            </td>
+          </tr>
+          </table>
+        </div>
+
+
+        <!-- インスタンス -->
+        <div class="expcontainer">
+          <div class="word">
+          <h4>インスタンス　途中</h4>
+          </div>
+          <table>
+          <tr>
+            <th class="upTheme">説明</th>
+            <td class="uptd">クラスからオブジェクトを生成するには、「new クラス名()」とします。<br>
+              クラスから生成したオブジェクトは特別にインスタンスと呼んでいます。<br>
+              下記の「new　Animal();」の部分を”Animalインスタンス"といいます。
+            </td>
+          </tr>
+          <tr>
+            <th class="mTheme">使い方</th>
+            <td class="mtd">class Animal {<br>
+              }<br>
+              const animal = new Animal();<br>
+
+            </td>
+          </tr>
+          <tr>
+            <th class="lastTheme">コンソール</th>
+            <td class="ltd">-
+            </td>
+          </tr>
+          </table>
+        </div>
+
+
+        <!--  constructor(コンストラクタ) 途中-->
+        <div class="expcontainer">
+          <div class="word">
+          <h4>インスタンス　途中</h4>
+          </div>
+          <table>
+          <tr>
+            <th class="upTheme">説明</th>
+            <td class="uptd">インスタンスを生成するときに実行したい処理や設定を追加するため用意。クラスの中括弧 { } 内に「constructor() { }」と記述します。</td>
+          </tr>
+          <tr>
+            <th class="mTheme">使い方</th>
+            <td class="mtd">const number1 = 123;<br>
+              const number2 = 38;<br>
+              const number3 = 104;<br>
+              const getMax = (a, b, c) => {<br>
+                <span class="TabSpace">let max = a;</span><br>
+                <span class="TabSpace">if(b > max) {</span><br>
+                  <span class="WTabSpace">max = b;</span><br>
+                <span class="TabSpace">{</span><br>
+                <span class="TabSpace">if(c > max) {</span><br>
+                  <span class="WTabSpace">max = c;</span><br>
+                <span class="TabSpace">{</span><br>
+                <span class="TabSpace">return max;</span><br>
+              };<br>
+              const max = getMax(number1, number2, number3);<br>
+              console.log(`最大値は${max}です`);<br>
+            </td>
+          </tr>
+          <tr>
+            <th class="lastTheme">コンソール</th>
+            <td class="ltd">最大値は123です
+            </td>
+          </tr>
+          </table>
+        </div>
+
+        <!-- メッソッド -->
 
       </div>
-    </div>
+    
 
 
 
