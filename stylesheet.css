@@ -4,44 +4,74 @@
   text-align: center;
   line-height: 80px;
   background-color: rgb(80, 76, 219);
-  /* padding: 0 80px; */
 }
 
 .wrpper {
   color: dimgray;
 }
 
-.first_title {
-  border: 2px solid gray;
-  padding: 80px 30px;
-  margin: 15px;
-  background-color: lightgray;
-  width: 300px;
-  display: block;
+
+/* .fcontainer {
+  position: relative;
+  
+} */
+
+.first_title, .first_title1 {
+  /* position: absolute;
+  top: 50%;
+  transform: translateY(-50%); */
   font-size: 30px;
-  text-decoration: none;
   color: dimgray;
   font-weight: 900;
-  /* border-radius: 5px; */
-  /* list-style: none; */
+  text-decoration: none;
+  padding: 0 30px;
+  list-style: none;
 }
+
+.first_title1 {
+  float: left;
+}
+
+.btn {
+  border: 2px solid gray;
+  width: 300px;
+  height: 250px;
+  background-color: lightgray;
+  margin: 15px;
+  border-radius: 5px;
+  display: block;
+}
+
+.btn1 {
+  border: 2px solid gray;
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  margin: 15px;
+  border-radius: 5px;
+  display: block;
+  float: right;
+}
+
 
 
 .second_title {
   clear: both;
 }
 
-.btn:active {
+.btn, .btn1:active {
   position: relative;
   top: 6px;
 }
+
+
 
 
 h4 {
   font-size: 25px;
   line-height: 2;
   color: black;
-  /* margin-left: 0; */
+  margin-bottom: 0;
   /* background-color: red; */
 }
 
@@ -86,9 +116,9 @@ p {
   padding-left: 5px;
 }
 
-.clear {
+/* .clear {
   clear: both;
-}
+} */
 
 main {
   background-color: antiquewhite;
@@ -100,38 +130,38 @@ main {
 }
 
 
-
 table {
-  width: 100%;
+  width: 95%;
   border-spacing: 0;
   padding: 0 20px;
+  margin: 0 30px;
+  border-collapse: collapse;
 }
 
-th {
+th, td {
+  border: solid 1px black;
+}
+
+.upTheme, .mTheme, .lastTheme {
   width: 15%;
   background-color: rgb(189, 205, 226);
 }
 
-.upTheme, .lastTheme {
+.inbox {
   border: solid 1px black;
+  float: right;
+  padding: 15px;
 }
 
-.mTheme {
-  border-left: solid 1px black;
-  border-right: solid 1px black;
-}
-
-td {
+.uptd, .mtd, .ltd {
   width: 85%;
   padding: 15px;
 }
 
-.uptd, .ltd {
-  border-top: solid 1px black;
-  border-right: solid 1px black;
-  border-bottom: solid 1px black;
-}
 
-.mtd {
-  border-right: solid 1px black;
+/* 行動の記録の表 */
+
+.actTitle {
+  width: 20%;
+  background-color: rgb(189, 205, 226);
 }
