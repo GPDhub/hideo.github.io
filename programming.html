@@ -6,30 +6,65 @@
   <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-  <header>
-    <h1 class="title">.C& のmemo</h1>
-
-  </header>
-  <main>
-    <div class="wrpper">
-    <div class="container">
-    
-      <div class="fcontainer">
-        <div class="first_title1"><h2>プログラミング学習の記録</h2></div>
+    <header>
+      <div class="leftTitle">
+        <h1 class="prgtitle">.C& のmemo</h1>
       </div>
-      <div class="fcontainer">
-        <a class="first_title btn1" href="index.html">topに戻る</a>
-      </div>
-      <div class="second_title">
-        <h3>javasceptの勉強</h3>
-
-
-        <!-- console.log -->
-        <div class="expcontainer">
-        <div class="word">
-          <h4>console.log</h4>
+      
+      <div class="rightTitle">
+        <div class="rinkbtn">
+          <!-- javasceptの勉強へのページ内リンクボタン -->
+        <a href="#javascept">javasceptの勉強</a>
         </div>
-        <table>
+    
+        <div class="rinkbtn">
+          <!-- PHPの勉強へのページ内リンクボタン -->
+          <a href="#php">PHPの勉強</a>
+        </div>
+    
+        <div class="rinkbtn">
+          <!-- reactの勉強へのページ内リンクボタン -->
+          <a href="#react">reactの勉強</a> 
+        </div>
+      </div>
+      
+    </header>
+
+
+    <main>
+      <div class="wrpper">
+        <div class="container">
+          
+          <!-- 表題 -->
+          <div class="fcontainer">
+            <div class="first_title1"><h2>プログラミング学習の記録</h2></div>
+          </div>
+          
+          <!-- topページへ戻るボタン -->
+          <div class="fcontainer">
+            <a class="first_title btn1" href="index.html">topページに戻る</a>
+          </div>
+          
+          
+          <!-- javasceptの勉強 -->
+          <div class="second_title">
+            <a id="javascept"><h3>javasceptの勉強</h3></a>
+            
+
+
+
+
+            
+
+
+
+            
+            <!-- console.log -->
+            <div class="expcontainer">
+              <div class="word">
+                <h4>console.log</h4>
+              </div>
+              <table>
           <tr>
           <th class="upTheme">説明</th>
           <td class="uptd">「console.log("○○");」というコードを書くと、()の中の○○という文字がコンソール表示でなく、デベロッパーツールのコンソールに表示される。</td>
@@ -626,8 +661,21 @@
 
 
 
+
+
+
+
+
+
+      <!-- PHPの勉強 -->
       <div class="second_title">
-        <h3>reactの勉強</h3>
+        <a id="php"><h3>PHPの勉強</h3></a>
+      </div>
+
+     
+      <!-- reactの勉強 -->
+      <div class="second_title">
+        <a id="react"><h3>reactの勉強</h3></a>
         <h4>アロー関数</h4>
           <p>onClick={() => {処理}} とすることでクリック時に処理を実行することができます。</p>
         <h4>過酷</h4>
