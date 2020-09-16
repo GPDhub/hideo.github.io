@@ -1,9 +1,30 @@
-.title {
-  color: rgb(191, 208, 224);
+header {
   height: 80px;
-  text-align: center;
-  line-height: 80px;
+  width: 100%;
   background-color: rgb(80, 76, 219);
+  line-height: 80px;
+}
+
+.title, .prgtitle {
+  color: rgb(191, 208, 224);
+}
+
+.title {
+  text-align: center;
+}
+
+.prgtitle {
+  float: left;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 1em;
+  padding: 0;
+}
+
+.rightTitle {
+  float: right;
+  margin: 0 1em;
+  padding: 0;
 }
 
 .wrpper {
@@ -20,7 +41,7 @@
   /* position: absolute;
   top: 50%;
   transform: translateY(-50%); */
-  font-size: 30px;
+  font-size: 25px;
   color: dimgray;
   font-weight: 900;
   text-decoration: none;
@@ -174,4 +195,8 @@ th, td {
 
 .hTitle {
   width: 1.8em;
+}
+
+.red {
+  color: red;
 }
