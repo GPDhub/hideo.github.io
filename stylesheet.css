@@ -1,21 +1,18 @@
 header {
   height: 80px;
   width: 100%;
-  background-color: rgb(80, 76, 219);
-  line-height: 80px;
-}
-
-.title, .prgtitle {
-  color: rgb(191, 208, 224);
+  background-color: rgb(143, 233, 143)
 }
 
 .title {
+  color: rgb(138, 136, 66);
+  line-height: 80px;
   text-align: center;
 }
 
-.prgtitle {
+.leftTitle {
   float: left;
-  height: 80px;
+  /* height: 80px; */
   line-height: 80px;
   margin: 0 1em;
   padding: 0;
@@ -25,6 +22,10 @@ header {
   float: right;
   margin: 0 1em;
   padding: 0;
+}
+
+.rinkbtn {
+  opacity: 0.8;
 }
 
 .wrpper {
@@ -77,12 +78,11 @@ header {
 }
 
 
-
-.second_title {
+/* .second_title {
   clear: both;
-}
+} */
 
-.btn:hover, .btn1:hover {
+.btn:hover, .btn1:hover, .rinkbtn:hover {
   opacity: 1;
 }
 
