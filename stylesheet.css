@@ -8,11 +8,7 @@ header {
   color: rgb(138, 136, 66);
   line-height: 80px;
   text-align: center;
-}
-
-.leftTitle {
   float: left;
-  /* height: 80px; */
   line-height: 80px;
   margin: 0 1em;
   padding: 0;
@@ -52,6 +48,11 @@ header {
 
 .first_title1 {
   float: left;
+}
+
+
+.container_b {
+  clear: left;
 }
 
 .btn {
